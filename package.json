@@ -1,6 +1,6 @@
 {
   "name": "@scribe_systems/dayjs-modularus-normalized",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Dayjs plugin to normalize dayjs",
   "main": "index.js",
   "scripts": {

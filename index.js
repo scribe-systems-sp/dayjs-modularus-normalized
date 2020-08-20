@@ -17,4 +17,14 @@ export default (option, dayjsClass, dayjsFactory) => {
             return new dayjsClass(cfg).tz(guessed)
         }
     }
+
+    dayjsClass.prototype.normalized = function() {
+        let tzLocal = window.localStorage.scribeTimeZone
+        try {
+            return this.tz(tzLocal)
+        } catch(err) {
+            let guessed = dayjsFactory.tz.guess()
+            return this.tz(guessed)
+        }
+    }
 }
