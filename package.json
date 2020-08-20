@@ -1,0 +1,19 @@
+{
+  "name": "@scribe_systems/dayjs-modularus-normalized",
+  "version": "1.0.3",
+  "description": "Dayjs plugin to normalize dayjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scribe-systems-sp/dayjs-modularus-normalized.git"
+  },
+  "author": "Scribe Systems",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scribe-systems-sp/dayjs-modularus-normalized/issues"
+  },
+  "homepage": "https://github.com/scribe-systems-sp/dayjs-modularus-normalized#readme"
+}
